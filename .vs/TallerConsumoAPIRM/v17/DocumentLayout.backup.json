@@ -1,0 +1,133 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Ces\\source\\repos\\TallerConsumoAPIRM\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E5B0321F-4BCF-4F09-A2D6-8460FE3FBFD9}|Client\\TallerConsumoAPIRM.Client.csproj|c:\\users\\ces\\source\\repos\\tallerconsumoapirm\\client\\pages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E5B0321F-4BCF-4F09-A2D6-8460FE3FBFD9}|Client\\TallerConsumoAPIRM.Client.csproj|solutionrelative:client\\pages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F294737-3682-4647-B89C-6E6A02B66216}|Server\\TallerConsumoAPIRM.Server.csproj|c:\\users\\ces\\source\\repos\\tallerconsumoapirm\\server\\controllers\\characterscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F294737-3682-4647-B89C-6E6A02B66216}|Server\\TallerConsumoAPIRM.Server.csproj|solutionrelative:server\\controllers\\characterscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5B0321F-4BCF-4F09-A2D6-8460FE3FBFD9}|Client\\TallerConsumoAPIRM.Client.csproj|c:\\users\\ces\\source\\repos\\tallerconsumoapirm\\client\\wwwroot\\css\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{E5B0321F-4BCF-4F09-A2D6-8460FE3FBFD9}|Client\\TallerConsumoAPIRM.Client.csproj|solutionrelative:client\\wwwroot\\css\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1EEE92A-25C3-4BFA-8C4A-32E09720135A}|Shared\\TallerConsumoAPIRM.Shared.csproj|c:\\users\\ces\\source\\repos\\tallerconsumoapirm\\shared\\models\\characters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1EEE92A-25C3-4BFA-8C4A-32E09720135A}|Shared\\TallerConsumoAPIRM.Shared.csproj|solutionrelative:shared\\models\\characters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1EEE92A-25C3-4BFA-8C4A-32E09720135A}|Shared\\TallerConsumoAPIRM.Shared.csproj|c:\\users\\ces\\source\\repos\\tallerconsumoapirm\\shared\\models\\character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1EEE92A-25C3-4BFA-8C4A-32E09720135A}|Shared\\TallerConsumoAPIRM.Shared.csproj|solutionrelative:shared\\models\\character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 11,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "app.css",
+              "DocumentMoniker": "C:\\Users\\Ces\\source\\repos\\TallerConsumoAPIRM\\Client\\wwwroot\\css\\app.css",
+              "RelativeDocumentMoniker": "Client\\wwwroot\\css\\app.css",
+              "ToolTip": "C:\\Users\\Ces\\source\\repos\\TallerConsumoAPIRM\\Client\\wwwroot\\css\\app.css",
+              "RelativeToolTip": "Client\\wwwroot\\css\\app.css",
+              "ViewState": "AgIAAFkAAAAAAAAAAAAAAGoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-09-22T06:59:50.549Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CharactersController.cs",
+              "DocumentMoniker": "C:\\Users\\Ces\\source\\repos\\TallerConsumoAPIRM\\Server\\Controllers\\CharactersController.cs",
+              "RelativeDocumentMoniker": "Server\\Controllers\\CharactersController.cs",
+              "ToolTip": "C:\\Users\\Ces\\source\\repos\\TallerConsumoAPIRM\\Server\\Controllers\\CharactersController.cs",
+              "RelativeToolTip": "Server\\Controllers\\CharactersController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-22T06:51:14.493Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Characters.cs",
+              "DocumentMoniker": "C:\\Users\\Ces\\source\\repos\\TallerConsumoAPIRM\\Shared\\Models\\Characters.cs",
+              "RelativeDocumentMoniker": "Shared\\Models\\Characters.cs",
+              "ToolTip": "C:\\Users\\Ces\\source\\repos\\TallerConsumoAPIRM\\Shared\\Models\\Characters.cs",
+              "RelativeToolTip": "Shared\\Models\\Characters.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-22T06:50:25.408Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Character.cs",
+              "DocumentMoniker": "C:\\Users\\Ces\\source\\repos\\TallerConsumoAPIRM\\Shared\\Models\\Character.cs",
+              "RelativeDocumentMoniker": "Shared\\Models\\Character.cs",
+              "ToolTip": "C:\\Users\\Ces\\source\\repos\\TallerConsumoAPIRM\\Shared\\Models\\Character.cs",
+              "RelativeToolTip": "Shared\\Models\\Character.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAcwCEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-22T06:49:41.94Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.razor",
+              "DocumentMoniker": "C:\\Users\\Ces\\source\\repos\\TallerConsumoAPIRM\\Client\\Pages\\Index.razor",
+              "RelativeDocumentMoniker": "Client\\Pages\\Index.razor",
+              "ToolTip": "C:\\Users\\Ces\\source\\repos\\TallerConsumoAPIRM\\Client\\Pages\\Index.razor",
+              "RelativeToolTip": "Client\\Pages\\Index.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-22T06:48:21.897Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

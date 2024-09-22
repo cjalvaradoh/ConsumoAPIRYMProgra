@@ -1,0 +1,112 @@
+﻿@page "/"
+@using TallerConsumoAPIRM.Shared.Models
+@using Newtonsoft.Json
+@inject HttpClient client
+
+<PageTitle>Index</PageTitle>
+
+<h1>Ricky y Morty Personajes</h1>
+
+<input type="text" @bind="searchTerm" @oninput="OnSearchChanged" placeholder="Buscar personaje" class="form-control mb-3" />
+
+@if (filteredCharacters is null)
+{
+    <p>Empty</p>
+}
+else if (filteredCharacters.Count == 0)
+{
+    <p>No hay datos</p>
+}
+else
+{
+    <div class="row">
+        @foreach (var character in filteredCharacters)
+        {
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="@character.image" class="card-img-top" alt="No image">
+                    <div class="card-body">
+                        <p class="card-text"><strong>@character.name</strong></p>
+                        <p class="card-text">@character.origin.name</p>
+                        <p class="card-text">@character.location.name</p>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+
+    <div class="mt-5">
+        <nav aria-label="Page navigation example">
+            <div style="text-align:center">
+                Page @Page of @characters.info.pages
+                <strong>Items @(characters.results.Count * Page)</strong> of
+                <strong> @(characters.info.count)</strong>
+            </div>
+
+            <ul class="pagination">
+                <li class="page-item @(Page == 1 ? "disabled" : "")">
+                    <a class="page-link" @onclick="@(() => onPage(Page - 1))">Previous</a>
+                </li>
+                <li class="page-item @(Page == characters.info.pages ? "disabled" : "")">
+                    <a class="page-link" @onclick="@(() => onPage(Page + 1))">Next</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+}
+
+@code {
+    public Characters characters { get; set; } = new Characters();
+    public List<Character> filteredCharacters { get; set; } = new List<Character>();
+    public string searchTerm { get; set; } = string.Empty;
+    public int Page { get; set; } = 1;
+    public int Total { get; set; } = 0;
+
+    protected override async Task OnInitializedAsync()
+    {
+        await GetCharacters();
+    }
+
+    private void onPage(int page)
+    {
+        Page = page;
+        _ = GetCharacters();
+    }
+
+    private async Task GetCharacters()
+    {
+        try
+        {
+            var response = await client.GetAsync($"api/characters/all?page={Page}");
+            if (response.IsSuccessStatusCode)
+            {
+                string responseBody = await response.Content.ReadAsStringAsync();
+                characters = JsonConvert.DeserializeObject<Characters>(responseBody);
+                Total = characters.info.count;
+                FilterCharacters();
+            }
+        }
+        catch (Exception ex)
+        {
+            Total = 0;
+            characters = null;
+            Console.WriteLine(ex.Message);
+        }
+    }
+
+    private void FilterCharacters()
+    {
+        if (characters != null)
+        {
+            filteredCharacters = string.IsNullOrWhiteSpace(searchTerm)
+                ? characters.results
+                : characters.results.Where(c => c.name.Contains(searchTerm, StringComparison.OrdinalIgnoreCase)).ToList();
+        }
+    }
+
+    private void OnSearchChanged(ChangeEventArgs e)
+    {
+        searchTerm = e.Value.ToString();
+        FilterCharacters();
+    }
+}
